@@ -1,0 +1,275 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugin Products Integration for WordPress\n"
+"POT-Creation-Date: 2020-09-13 21:30-0400\n"
+"PO-Revision-Date: 2015-11-18 09:07-0500\n"
+"Last-Translator: Francis Santerre <francis.santerre@gmail.com>\n"
+"Language-Team: Francis Santerre <francis.santerre@gmail.com>\n"
+"Language: en_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: Plugin-products-integration.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-Plugin-admin.php:61
+msgid "The cache storage has been flushed."
+msgstr ""
+
+#: includes/class-Plugin-admin.php:131
+msgid "Magento module installation successfully verified."
+msgstr ""
+
+#: includes/class-Plugin-admin.php:137
+msgid ""
+"Unable to verify the Magento module installation. Make sure to <strong>Flush "
+"Magento Cache</strong>!"
+msgstr ""
+
+#: includes/class-Plugin-admin.php:155
+msgid "The \"store_class\" field is required."
+msgstr ""
+
+#: includes/class-Plugin-admin.php:162
+msgid "The selected store does not exist or is no longer available."
+msgstr ""
+
+#: includes/class-Plugin-admin.php:240
+msgid "Magento Settings"
+msgstr ""
+
+#: includes/class-Plugin-admin.php:246
+msgid "Select your store"
+msgstr ""
+
+#: includes/class-Plugin-admin.php:274
+msgid ""
+"For developers: <a target=\"_blank\" href=\"https://magproductsintegration.com/"
+"documentation.html\"><strong>actions</strong> and <strong>filters</strong> "
+"documentation</a>."
+msgstr ""
+
+#: includes/class-Plugin-admin.php:307
+#, php-format
+msgid ""
+"Please <a href=\"%s\">configure Magento plugin</a> before using the shortcode."
+msgstr ""
+
+#: includes/class-Plugin-admin.php:341 includes/class-Plugin-admin.php:342
+#: includes/class-Plugin-admin.php:360
+msgid "Magento"
+msgstr ""
+
+#: includes/class-Plugin-admin.php:366
+msgid "Colors"
+msgstr ""
+
+#: includes/class-Plugin-admin.php:415
+msgid "Current Price"
+msgstr ""
+
+#: includes/class-Plugin-admin.php:426
+msgid "Regular Price"
+msgstr ""
+
+#: includes/class-Plugin-admin.php:436
+msgid "Button"
+msgstr ""
+
+#: includes/class-Plugin-admin.php:446
+msgid "Button text"
+msgstr ""
+
+#: includes/class-Plugin-admin.php:456
+msgid "Button hover"
+msgstr ""
+
+#: includes/class-Plugin.php:105
+msgid "Settings"
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:11
+msgid "Magento 1"
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:21
+msgid ""
+"You have to <strong>enable REST API</strong> first in your Magento store and "
+"<strong>give the product API Resources</strong> to your Guest role. Otherwise, "
+"it will be impossible to retreive your products."
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:24
+msgid ""
+"Magento module is optional. If you are not using it, make sure to use the "
+"cache to reduce page load time."
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:28
+msgid "Disable Customizer CSS"
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:35
+msgid "Magento REST API URL"
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:38
+msgid ""
+"Do not forget to <strong>put the trailing slash</strong>. Ex: http://"
+"yourmagentostore.com/api/rest/"
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:46
+msgid "Verify Magento module installation and get available stores"
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:51
+msgid "Magento module installed"
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:52
+msgid "Yes"
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:55
+msgid "Available stores code"
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:59
+msgid "Default store code"
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:66
+msgid "Enable cache"
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:78
+msgid "Cache lifetime"
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:88
+msgid "Flush cache"
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:112
+msgid "1 hour"
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:116
+msgid "6 hours"
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:120
+msgid "12 hours"
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:124
+msgid "1 day"
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:128
+msgid "3 days"
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:132
+msgid "1 week"
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:136
+msgid "1 year"
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:245
+msgid ""
+"The \"store\" attribute of the shortcode [magento] is mandatory since 1.2.11. "
+"If the attribute is set, please make sure that the store code exists."
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:353
+#: includes/stores/class-store-magento1.php:359
+msgid "Buy it now"
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:366 templates/product.php:52
+msgid "View details"
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:580
+#, php-format
+msgid "The URL \"%s\" is invalid."
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:603
+msgid ""
+"Something went wrong while the plugin was trying to connect to the API. Please "
+"verify the error below."
+msgid_plural ""
+"Something went wrong while the plugin was trying to connect to the API. Please "
+"verify the errors below."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/stores/class-store-magento1.php:617
+msgid "The API URL has been successfully validated."
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:646
+#, php-format
+msgid ""
+"The REST API is enabled but the URL rewrite is not working. Read more here: %s"
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:660
+#: includes/stores/class-store-magento1.php:667
+msgid "The URL is not a valid API endpoint."
+msgstr ""
+
+#: includes/stores/class-store-magento1.php:736
+msgid ""
+"Please verify Magento module installation and load available stores. <a id="
+"\"dismiss-module-notice\" href=\"#\">Dismiss this notice, I am not going to "
+"use the Magento module.</a>"
+msgstr ""
+
+#: includes/stores/class-store-magento2.php:10
+msgid "Magento 2"
+msgstr ""
+
+#: includes/stores/class-store-magento2.php:17
+msgid "Magento 2 base URL"
+msgstr ""
+
+#: includes/stores/class-store-magento2.php:24
+msgid "Access Token"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Plugin Products Integration for WordPress"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/Plugin-products-integration/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin let you display products of your Magento store, directly in your "
+"WordPress. It connects to Magento through the REST API."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Francis Santerre"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://santerref.com/"
+msgstr ""
